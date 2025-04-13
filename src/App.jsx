@@ -17,7 +17,9 @@ const App = () => {
 
   const filteredExpenses = expenses.filter(exp =>
     exp.description.toLowerCase().includes(search.toLowerCase()) ||
-    exp.category.toLowerCase().includes(search.toLowerCase())
+    exp.category.toLowerCase().includes(search.toLowerCase()) ||
+    exp.expense.toLowerCase().includes(search.toLowerCase())
+
   );
 
   return (
