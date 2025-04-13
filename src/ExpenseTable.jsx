@@ -10,13 +10,7 @@ const ExpenseTable = ({ expenses, onDelete }) => {
           <th>Date</th>
           <th>Actions</th>
         </tr>
-        <tr>
-            <td>Grocery Shopping</td>
-            <td>Weekly groceries from the market</td>
-            <td>$80</td>
-            <td>food</td>
-            <td>6-12-2025</td>
-        </tr>
+
       </thead>
       <tbody>
         {expenses.map((exp) => (
