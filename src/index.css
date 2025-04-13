@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: green;
+  }
+  
+  .expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .expense-form input,
+  .search-bar {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .expense-form button {
+    padding: 10px;
+    font-size: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .expense-table th {
+    background-color: #f0f0f0;
+  }
+  
